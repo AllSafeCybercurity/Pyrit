@@ -1,5 +1,21 @@
 ## Please Read
 
+Commands:
+hcxdumptool:
+sudo apt install hcxdumptool 
+
+hcxpcaptool:
+apt install hcxtools
+
+pyrit:
+sudo apt-get install libpcap-dev
+sudo apt-get install python2.7-dev libssl-dev zlib1g-dev libpcap-dev
+git clone https://github.com/JPaulMora/Pyrit.git
+cd Pyrit
+sudo python setup.py clean
+sudo python setup.py build
+sudo python setup.py install
+
 Pyrit is old, is outdated and it's still Python2 I am currently attempting to rewrite it from scratch, so thanks for all the stars but remember to keep an eye for Python3 version.
 
 # Pyrit #
